@@ -1,0 +1,118 @@
+sbody {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #e4aaaa;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e4aaaa;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    color: #777;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px 0;
+    margin: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+.featured-project {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.featured-project img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+#about, #contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f5e2e2;
+}
+
+#about img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e4aaaa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e4aaaa;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+    color: #777;
+}
